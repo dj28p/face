@@ -1,10 +1,15 @@
-# IMPORTANT: Bug Fixes
+# Face Recognition & Mood Detection 🎭  
 
-## `navigator.getUserMedia`
+This project brings AI-powered facial recognition and mood detection to life using **TensorFlow**. Whether you're smiling, frowning, or somewhere in between, the system detects faces and analyzes emotions in real time.  
 
-`navigator.getUserMedia` is now deprecated and is replaced by `navigator.mediaDevices.getUserMedia`. To fix this bug replace all versions of `navigator.getUserMedia` with `navigator.mediaDevices.getUserMedia`
+## 🚀 Tech Stack  
+- **TensorFlow** – For deep learning-based face recognition  
 
-## Low-end Devices Bug
+- **JavaScript** – Powering the logic (adjust as needed)  
 
-The video eventListener for `play` fires up too early on low-end machines, before the video is fully loaded, which causes errors to pop up from the Face API and terminates the script (tested on Debian [Firefox] and Windows [Chrome, Firefox]). Replaced by `playing` event, which fires up when the media has enough data to start playing.
-# face-detector
+## 🔥 Features  
+✅ Real-time face detection & tracking  
+✅ Mood analysis based on facial expressions  
+✅ Lightweight, efficient, and smooth performance  
+
+Feel free to modify it based on your specific implementation! 🚀 
